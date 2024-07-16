@@ -41,7 +41,7 @@ export default function Home() {
         <table className="table border shadow">
           <thead>
             <tr>
-              <th scope="col">ID Futbolista</th>
+              <th scope="col">ㅤIDㅤ</th>
               <th scope="col">Nombres</th>
               <th scope="col">Apellidos</th>
               <th scope="col">Fecha Nacimiento</th>
@@ -65,11 +65,11 @@ export default function Home() {
                     to={`/viewfutbolista/${futbol.idFutbolista}`}
                   >Ver</Link>
                   <Link 
-                    className="btn btn-primary mx-2"
+                    className="btn btn-primary mx-1"
                     to={`/editfutbolista/${futbol.idFutbolista}`}
                   >Actualizar</Link>
                   <button 
-                    className="btn btn-danger mx-2" 
+                    className="btn btn-danger mx2"
                     onClick={() => handleDeleteClick(futbol.idFutbolista)}
                   >Eliminar</button>
                 </td>
