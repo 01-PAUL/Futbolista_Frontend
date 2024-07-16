@@ -1,0 +1,64 @@
+/* Home.css */
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-custom {
+    margin-right: 5px;
+  }
+  
+  /* Modal */
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-header.bg-success {
+    background-color: #304dad !important;
+  }
+  
+  .modal-footer .btn-success {
+    background-color: #304dad;
+    border-color: #304dad;
+  }
+  
+  .modal-footer .btn-success:hover {
+    background-color: #304dad;
+    border-color: #304dad;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .modal-header .btn-close {
+    color: white;
+    opacity: 1;
+  }
+  
+  .modal-header .btn-close:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+    opacity: 0.75;
+  }
+  

@@ -1,0 +1,78 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    border-color: #80bdff;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="5" viewBox="0 0 4 5"><path fill="#343a40" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>') no-repeat right 10px center;
+    background-size: 8px 10px;
+    padding-right: 30px;
+  }
+  
+  select.form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    border-color: #80bdff;
+  }
+  
+  /* Modal */
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header.bg-success {
+  background-color: #304dad !important;
+}
+
+.modal-footer .btn-success {
+  background-color: #304dad;
+  border-color: #304dad;
+}
+
+.modal-footer .btn-success:hover {
+  background-color: #304dad;
+  border-color: #304dad;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-header .btn-close {
+  color: white;
+  opacity: 1;
+}
+
+.modal-header .btn-close:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+  opacity: 0.75;
+}
